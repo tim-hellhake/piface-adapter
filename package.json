@@ -1,0 +1,41 @@
+{
+  "name": "piface-adapter",
+  "display_name": "PiFace",
+  "version": "0.1.0",
+  "description": "Connect your PiFace HAT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tim-hellhake/piface-adapter.git"
+  },
+  "author": "Tim Hellhake",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/tim-hellhake/piface-adapter/issues"
+  },
+  "homepage": "https://github.com/tim-hellhake/piface-adapter#readme",
+  "files": [
+    "LICENSE",
+    "SHA256SUMS",
+    "manifest.json",
+    "lib/index.js",
+    "lib/input-property.js",
+    "lib/mcp23s17.js",
+    "lib/output-property.js",
+    "lib/piface-adapter.js",
+    "lib/piface-device.js",
+    "lib/piface.js"
+  ],
+  "devDependencies": {
+    "typescript": "^3.8.3",
+    "@types/node": "^13.9.8"
+  },
+  "dependencies": {
+    "spi-device": "^3.0.1"
+  }
+}
