@@ -3,7 +3,7 @@
   "id": "piface-adapter",
   "name": "PiFace",
   "short_name": "PiFace",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Connect your PiFace HAT",
   "homepage_url": "https://github.com/tim-hellhake/piface-adapter#readme",
   "license": "MPL-2.0",
